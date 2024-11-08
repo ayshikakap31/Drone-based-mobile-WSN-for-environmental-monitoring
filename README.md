@@ -40,7 +40,7 @@ Real-time data from a weather API for Europe, sampled over three days in a \(48 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Drone-based-mobile-WSN-for-environmental-monitoring.git
+   git clone https://github.com/ayshikakap31/Drone-based-mobile-WSN-for-environmental-monitoring.git
    cd Drone-based-mobile-WSN-for-environmental-monitoring
 2. Install the required libraries:
    pip install -r requirements.txt
