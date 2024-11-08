@@ -1,0 +1,7 @@
+aiohttp
+asyncio
+matplotlib
+nest_asyncio
+numpy
+scipy
+pandas
