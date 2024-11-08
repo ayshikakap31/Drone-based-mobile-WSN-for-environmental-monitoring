@@ -19,14 +19,14 @@ Due to the nature of drone movement, data is not available at every possible loc
 ## Datasets
 
 ### Simulated Dataset
-The temperature is modeled as a sinusoidal function of coordinates \( \mathcal{X} \), \( \mathcal{Y} \), and time \( \mathcal{T} \):
+The temperature is modeled as a sinusoidal function of coordinates coordinates `X`, `Y`, and time `T`:
 \[
-\Upsilon = (\sin(3.2 \times \pi \times 0.00005 \mathcal{T})+1) \times (\sin(0.2\mathcal{X})+\sin(0.2\mathcal{Y}))+50
+Z = (sin(3.2 * π * 0.00005 * T) + 1) * (sin(0.2 * X) + sin(0.2 * Y)) + 50
 \]
 where:
-- \( \Upsilon \): Temperature,
-- \( \mathcal{X}, \mathcal{Y} \): Coordinates \([0,50)\),
-- \( \mathcal{T} \): Time (0 to 60).
+- `Z`: Temperature,
+- `X`, `Y`: Coordinates `[0,50)`,
+- `T`: Time (0 to 60).
 
 The spatial region is discretized into a \(50 \times 50\) grid. At \( \mathcal{T} = 10 \), the temperature variation aligns with real-world conditions.
 
